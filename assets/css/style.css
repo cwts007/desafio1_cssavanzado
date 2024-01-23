@@ -50,12 +50,12 @@ footer {
 }
 .contenido h1 {
   font-size: 45px;
-  font-weight: 500;
+  font-weight: 400;
   margin: 10px;
 }
 .contenido p {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   height: 50px;
   width: 450px;
   text-align: center;
@@ -67,6 +67,9 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+}
+.primera i {
+  color: var(--color-gray);
 }
 
 .primera:hover {
@@ -161,15 +164,15 @@ footer {
 
 .texto2 h2 {
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
 }
 
 .texto2 p {
   margin: 0;
   color: var(--color-dark-jungle);
-  font-size: 10px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .boton .imgcontacto {
