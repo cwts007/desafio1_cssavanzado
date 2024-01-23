@@ -26,14 +26,14 @@ footer {
 }
 .contenedor {
   display: flex;
-  flex: 5;
+  flex: 100%;
 }
 
 .menu {
   background-color: var(--color-white);
   color: var(--color-dark-jungle);
   display: flex;
-  flex: 1;
+  flex: 20%;
   flex-direction: column;
   height: 100vh;
   overflow-y: auto;
@@ -43,7 +43,7 @@ footer {
   background-color: var(--color-platinum);
   color: var(--color-dark-jungle);
   display: flex;
-  flex: 4;
+  flex: 80%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -67,6 +67,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  flex-direction: row;
 }
 .primera i {
   color: var(--color-gray);
