@@ -48,6 +48,19 @@ footer {
   align-items: center;
   flex-direction: column;
 }
+.contenido h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 10px;
+}
+.contenido p {
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  width: 450px;
+  text-align: center;
+  margin: 10px;
+}
 
 .primera {
   border: 1px solid var(--color-gray);
@@ -62,8 +75,8 @@ footer {
 
 .imgcontacto {
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
   transition: transform 0.1s;
 }
@@ -90,16 +103,18 @@ footer {
 .texto h2 {
   margin: 0;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .texto p {
   margin: 0;
   color: var(--color-gray);
+  font-size: 10px;
 }
 
 .chat {
   border: 1px solid var(--color-gray);
-  padding: 30px;
+  padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +125,7 @@ footer {
   color: var(--color-white);
   font-size: 16px;
   white-space: nowrap;
-  padding: 20px 100px;
+  padding: 20px 80px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -147,14 +162,17 @@ footer {
 .texto2 h2 {
   margin: 0;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .texto2 p {
   margin: 0;
   color: var(--color-dark-jungle);
+  font-size: 10px;
+  font-weight: 500;
 }
 
 .boton .imgcontacto {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
