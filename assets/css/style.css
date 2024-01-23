@@ -1,42 +1,65 @@
+:root {
+  --color-white: #fff;
+  --color-platinum: #e8ebe4;
+  --color-gray: #bec1bb;
+  --color-blue-bell: #a491d2;
+  --color-soap: #cdc3e6;
+  --color-pale-lavender: #d4dcff;
+  --color-dark-jungle: #1b1f21;
+  --color-outer-space: #444749;
+  --color-old-silver: #828485;
+}
+
 body {
-  background-color: white;
-  color: white;
+  background-color: var(--color-white);
+  color: var(--color-dark-jungle);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
   overflow: hidden;
 }
+header {
+  display: hidden;
+}
+footer {
+  display: hidden;
+}
 .contenedor {
   display: flex;
   flex: 5;
 }
+
 .menu {
-  background-color: white;
-  color: black;
+  background-color: var(--color-white);
+  color: var(--color-dark-jungle);
   display: flex;
   flex: 1;
   flex-direction: column;
   height: 100vh;
   overflow-y: auto;
 }
+
 .contenido {
-  background-color: #e8ebe4;
-  color: black;
+  background-color: var(--color-platinum);
+  color: var(--color-dark-jungle);
   display: flex;
   flex: 4;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .primera {
-  border: 1px solid #bec1bb;
+  border: 1px solid var(--color-gray);
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
+
 .primera:hover {
-  background-color: #e8ebe4;
+  background-color: var(--color-platinum);
 }
+
 .imgcontacto {
   border-radius: 50%;
   width: 60px;
@@ -44,42 +67,48 @@ body {
   object-fit: cover;
   transition: transform 0.1s;
 }
+
 .imgcontacto:hover {
   transform: scale(1.2);
 }
+
 .botones {
   display: flex;
   justify-content: space-evenly;
   flex: 1;
   align-self: center;
 }
+
 .texto {
   display: flex;
   flex: 2;
   flex-direction: column;
   justify-content: center;
-
   padding: 0px 10px;
 }
+
 .texto h2 {
   margin: 0;
   font-weight: 500;
 }
+
 .texto p {
   margin: 0;
-  color: #bec1bb;
+  color: var(--color-gray);
 }
+
 .chat {
-  border: 1px solid #bec1bb;
+  border: 1px solid var(--color-gray);
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .nuevo-chat {
-  background-color: #a491d2;
-  color: white;
-  font-size: 16 px medium;
+  background-color: var(--color-blue-bell);
+  color: var(--color-white);
+  font-size: 16px;
   white-space: nowrap;
   padding: 20px 100px;
   border: none;
@@ -88,38 +117,43 @@ body {
 }
 
 .nuevo-chat:hover {
-  background-color: #cdc3e6;
+  background-color: var(--color-soap);
 }
 
 .nuevo-chat:focus {
-  background-color: #bec1bb;
-  color: white;
+  background-color: var(--color-gray);
+  color: var(--color-white);
 }
+
 .boton {
-  border: 1px solid #bec1bb;
+  border: 1px solid var(--color-gray);
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
+
 .boton:hover {
-  background-color: #e8ebe4;
+  background-color: var(--color-platinum);
 }
+
 .texto2 {
   display: flex;
   flex: 2;
   flex-direction: column;
   justify-content: center;
-
   padding: 0px 10px;
 }
+
 .texto2 h2 {
   margin: 0;
   font-weight: 500;
 }
+
 .texto2 p {
   margin: 0;
-  color: black;
+  color: var(--color-dark-jungle);
 }
+
 .boton .imgcontacto {
   width: 80px;
   height: 80px;
