@@ -19,10 +19,10 @@ body {
   overflow: hidden;
 }
 header {
-  display: hidden;
+  display: none;
 }
 footer {
-  display: hidden;
+  display: none;
 }
 .contenedor {
   display: flex;
