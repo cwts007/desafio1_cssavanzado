@@ -18,8 +18,12 @@ body {
 }
 .contenido {
   background-color: #e8ebe4;
+  color: black;
   display: flex;
   flex: 4;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .primera {
   border: 1px solid #bec1bb;
